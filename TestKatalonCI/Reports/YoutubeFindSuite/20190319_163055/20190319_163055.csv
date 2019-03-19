@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+YoutubeFindSuite,Chrome 72.0.3626.121,,2019-03-19 16:30:59,2019-03-19 16:31:19,20.430s,PASSED
+,,,,,,
+Test Cases/YotubeFinder,Chrome 72.0.3626.121,,2019-03-19 16:31:00,2019-03-19 16:31:19,19.626s,PASSED
+"openBrowser(""https://www.youtube.com/"")",Chrome 72.0.3626.121,,2019-03-19 16:31:00,2019-03-19 16:31:10,9.479s,PASSED
+"sendKeys(findTestObject(""Object Repository/input_navigation_search""), ""Marvel"")",Chrome 72.0.3626.121,,2019-03-19 16:31:10,2019-03-19 16:31:11,1.130s,PASSED
+"click(findTestObject(""Object Repository/button_Search""))",Chrome 72.0.3626.121,,2019-03-19 16:31:11,2019-03-19 16:31:12,0.706s,PASSED
+waitForAlert(7),Chrome 72.0.3626.121,,2019-03-19 16:31:12,2019-03-19 16:31:19,7.408s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-19 16:31:19,2019-03-19 16:31:19,0.289s,PASSED
